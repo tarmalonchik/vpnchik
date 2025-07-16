@@ -59,6 +59,366 @@
 			"settings": {
 				"vnext": [
 					{
+						"address": "fin3.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "ilkr8h9TZ5--WfVVb3kRv-Ga-L4dcFTcQXD72BxGYEU",
+					"serverName": "fin3.nxtcloud.cc",
+					"shortId": "73c7f5f07329ceb5"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy0",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "fin4.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "fgxBnWYtvfbMJ74xJbIQtYIMRWP22xsBbo-sG0UVv3c",
+					"serverName": "fin4.nxtcloud.cc",
+					"shortId": "86f376118ec28398"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy1",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "fin5.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "t08Fy7av9T20QAOWzdWhXHdf8yzKG8nNDtfxbjmgyTI",
+					"serverName": "fin5.nxtcloud.cc",
+					"shortId": "24c2ff209c48a065"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy2",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "fin6.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "SDdiEqwH6NVLy7FriM7dfm7s1vUt4VCWxocDycGjeiY",
+					"serverName": "fin6.nxtcloud.cc",
+					"shortId": "3092e799359c6b68"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy3",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu3.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "g0wexMXOvYha8WcfhoLqRKq5opFz64Z1_JJv7azetQM",
+					"serverName": "deu3.nxtcloud.cc",
+					"shortId": "d71f2a52d3b3e61a"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy4",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu4.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "v3L7_odZd18pHRViNUcwG6L7z1_ijgkATafQItzeniQ",
+					"serverName": "deu4.nxtcloud.cc",
+					"shortId": "99e905bedcaf4b8a"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy5",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu5.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "HELP8dC-vhMUWWrsT-_KcwTHOah9SdFWhGpSnveiLDg",
+					"serverName": "deu5.nxtcloud.cc",
+					"shortId": "37acd433f5051d3e"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy6",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu6.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "Nr3-sbL8kb8qFXWWHbQzsW4GebmrfLlsZWECf4hB6HI",
+					"serverName": "deu6.nxtcloud.cc",
+					"shortId": "826da5f6153f7d31"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy7",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu7.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "WoqlgP96Ylfeebv_R_j3y4TBDfyTCY6aFklXm5ioT3k",
+					"serverName": "deu7.nxtcloud.cc",
+					"shortId": "1e78eaf0dbed1f27"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy8",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu8.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "oZOmSmSk7mRow9IqgcsuVKXl6o_TVsBdph-bT5TEa1E",
+					"serverName": "deu8.nxtcloud.cc",
+					"shortId": "30aeb9e3a87b8aee"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy9",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu9.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "XJbJutMIwR2GyAeZx48INxjaa84cBoZx0EzqPDWNGR4",
+					"serverName": "deu9.nxtcloud.cc",
+					"shortId": "96119d6a1c409e8a"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy10",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "deu10.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "vBeiK_0s_U_aJeHbnLglTFCw3TN4L1Kn0F0t4N7g7gY",
+					"serverName": "deu10.nxtcloud.cc",
+					"shortId": "f10234328dea05f1"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy11",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
 						"address": "usa1.nxtcloud.cc",
 						"port": 8443,
 						"users": [
@@ -233,6 +593,96 @@
 			},
 			"tag": "proxy17",
 			"SendTorrent": "false"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "nld1.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "MYV7YSWy9GstGdezygXKOTr_eXwyaewvQJfz87ojZj4",
+					"serverName": "nld1.nxtcloud.cc",
+					"shortId": "d6753c2333b56b3e"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy18",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "nld2.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "yQwI9A0KksA7qgCAkfGbLqRmpmDtHfYCh0YqCPvo5zA",
+					"serverName": "nld2.nxtcloud.cc",
+					"shortId": "96e6ab92a73531f0"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy19",
+			"SendTorrent": "true"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "nld3.nxtcloud.cc",
+						"port": 8443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "vOOkcMRPmw50Fn1wBprDpfYxGAX3oAjtGtb6zirevXk",
+					"serverName": "nld3.nxtcloud.cc",
+					"shortId": "8eadf0574a167804"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy20",
+			"SendTorrent": "true"
 		},
 		{
 			"protocol": "vless",
