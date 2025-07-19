@@ -158,7 +158,7 @@
 			},
 			"tag": "proxy34"
 		},
-		{
+				{
 			"protocol": "vless",
 			"settings": {
 				"vnext": [

@@ -8,51 +8,39 @@
 		"probeInterval": "8s",
 		"enableConcurrency": true
 	},
-	"routing": {
-		"domainStrategy": "AsIs",
-		"rules": [
-			{
-				"inboundTag": [
-					"wg",
-					"vless",
-					"socks"
-				],
-				"balancerTag": "bal"
-			}
-		],
-		"balancers": [
-			{
-				"selector": [
-					"proxy"
-				],
-				"strategy": {
-					"type": "leastPing"
-				},
-				"tag": "bal"
-			}
-		]
-	},
 	"inbounds": [
 		{
 			"listen": "127.0.0.1",
-			"port": 1080,
+			"port": 10808,
 			"protocol": "socks",
 			"settings": {
 				"auth": "noauth",
-				"udp": true
+				"udp": true,
+				"userLevel": 8
 			},
 			"sniffing": {
 				"destOverride": [
 					"http",
-					"tls",
-					"quic"
+					"tls"
 				],
-				"enabled": false,
-				"routeOnly": true
+				"enabled": true,
+				"routeOnly": false
 			},
 			"tag": "socks"
+		},
+		{
+			"listen": "127.0.0.1",
+			"port": 10809,
+			"protocol": "http",
+			"settings": {
+				"userLevel": 8
+			},
+			"tag": "http"
 		}
 	],
+	"log": {
+		"loglevel": "warning"
+	},
 	"outbounds": [
 		{
 			"protocol": "vless",
@@ -171,13 +159,65 @@
 			"tag": "proxy34"
 		},
 		{
-			"protocol": "freedom",
-			"tag": "direct"
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "213.171.4.131",
+						"port": 443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "dkVl6tmLLWG3580AI81ecGt1hA0PmelCEbB1ViWbZFw",
+					"serverName": "yandex.ru",
+					"shortId": "15b4f9f309316461"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy666"
 		},
 		{
-			"protocol": "blackhole",
-			"tag": "block"
+			"protocol": "freedom",
+			"settings": {
+				"domainStrategy": "UseIP"
+			},
+			"tag": "direct"
 		}
-	]
+	],
+	"routing": {
+		"domainStrategy": "AsIs",
+		"balancers": [
+			{
+				"selector": [
+					"proxy"
+				],
+				"strategy": {
+					"type": "leastPing"
+				},
+				"tag": "bal"
+			}
+		],
+		"rules": [
+			{
+				"inboundTag": [
+					"wg",
+					"vless",
+					"socks"
+				],
+				"balancerTag": "bal"
+			}
+		]
+	}
 }
 ```
