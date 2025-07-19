@@ -159,6 +159,35 @@
 			"tag": "proxy34"
 		},
 		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "213.171.4.131",
+						"port": 443,
+						"users": [
+							{
+								"encryption": "none",
+								"flow": "xtls-rprx-vision",
+								"id": "e4d61f2c-462f-44cb-9323-63250613e178"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "tcp",
+				"realitySettings": {
+					"fingerprint": "random",
+					"publicKey": "dkVl6tmLLWG3580AI81ecGt1hA0PmelCEbB1ViWbZFw",
+					"serverName": "yandex.ru",
+					"shortId": "15b4f9f309316461"
+				},
+				"security": "reality"
+			},
+			"tag": "proxy666"
+		},
+		{
 			"protocol": "freedom",
 			"settings": {
 				"domainStrategy": "UseIP"
